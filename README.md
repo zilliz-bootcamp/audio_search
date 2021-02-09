@@ -6,7 +6,7 @@ This project use [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn): 
 
 ### Requirements
 
-- [Milvus 0.11.0](https://milvus.io/docs/v0.11.0/milvus_docker-cpu.md) (please note the Milvus version)
+- [Milvus 0.10.5](https://milvus.io/docs/v0.10.5/milvus_docker-cpu.md) (please note the Milvus version)
 - [MySQL](https://hub.docker.com/r/mysql/mysql-server)
 - [Python3](https://www.python.org/downloads/)
 
