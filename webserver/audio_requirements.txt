@@ -13,3 +13,4 @@ uvicorn
 pandas
 python-multipart
 aiofiles
+cryptography
