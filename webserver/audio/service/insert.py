@@ -15,7 +15,7 @@ def init_table(index_client, conn, cursor, table_name):
         print("create table.")
         create_table_mysql(conn, cursor, table_name)
         create_table_milvus(index_client, table_name, VECTOR_DIMENSION)
-        create_index(index_client, table_name, METRIC_TYPE)
+        create_index(index_client, table_name)
 
 
 def get_ids_file(ids_milvus, ids_audio, file_name):

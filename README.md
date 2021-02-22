@@ -15,7 +15,7 @@ This project use [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn): 
 1. **Install python requirements**
 
    ```bash
-   $ cd cd bootcamp/solutions/audio_search/webserver/
+   $ cd bootcamp/solutions/audio_search/webserver/
    $ pip install -r audio_requirements.txt
    ```
 
@@ -27,11 +27,11 @@ This project use [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn): 
    | ------------ | ------------------------- | --------------- |
    | MILVUS_HOST  | milvus service ip address | 127.0.0.1       |
    | MILVUS_PORT  | milvus service port       | 19530           |
-   | MYSQL_HOST   | postgresql service ip     | 127.0.0.1       |
-   | MYSQL_PORT   | postgresql service port   | 3306            |
-   | MYSQL_USER   | postgresql user name      | root            |
-   | MYSQL_PWD    | postgresql password       | 123456          |
-   | MYSQL_DB     | postgresql datebase name  | mysql           |
+   | MYSQL_HOST   | mysql service ip     | 127.0.0.1       |
+   | MYSQL_PORT   | mysql service port   | 3306            |
+   | MYSQL_USER   | mysql user name      | root            |
+   | MYSQL_PWD    | mysql password       | 123456          |
+   | MYSQL_DB     | mysql datebase name  | mysql           |
    | MILVUS_TABLE | default table name        | milvus_audio    |
 
 3. **Star server**
