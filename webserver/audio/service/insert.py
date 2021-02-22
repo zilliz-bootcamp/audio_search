@@ -64,7 +64,7 @@ def do_insert_audio(index_client, conn, cursor, table_name, audio_path):
                     embeddings.append(vectors_wav)
                     ids_audio.append(ids_wav)
                 # print("len of embeddings", len(embeddings))
-        ids_milvus = insert_vectors(index_client, table_name, embeddings)
+        _, ids_milvus = insert_vectors(index_client, table_name, embeddings)
         
         file_name = str(uuid.uuid1()) + ".csv"
         get_ids_file(ids_milvus, ids_audio, file_name)
