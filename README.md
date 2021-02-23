@@ -1,6 +1,6 @@
 # Audio retrieval system with Milvus
 
-This project use [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn): Large-Scale Pretrained Audio Neural Networks for Audio Pattern Recognition for audio tagging and sound event detection, and finally get audio embeddings. Then [Milvus](https://milvus.io/docs/v0.11.0/overview.md) is used to search the similarity audio items.
+This project uses [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn)(Large-Scale Pretrained Audio Neural Networks) for Audio Pattern Recognition to perform audio tagging and sound event detection, finally obtaining audio embeddings. Then this project uses [Milvus](https://milvus.io/docs/v0.11.0/overview.md) to search for similar audio clips.
 
 ## Local Deployment
 
@@ -43,22 +43,22 @@ This project use [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn): 
 
 ## System Usage
 
-You can type `127.0.0.1:8002/docs` into your browser to see all the APIs.
+Type `127.0.0.1:8002/docs` in your browser to see all the APIs.
 
 ![](./pic/all_API.png)
 
 - Insert data.
 
-  You can download the sample [game_sound.zip](https://github.com/shiyu22/bootcamp/blob/0.11.0/solutions/audio_search/data/game_sound.zip?raw=true) and insert it into the system.
+  Download the sample [game_sound.zip](https://github.com/shiyu22/bootcamp/blob/0.11.0/solutions/audio_search/data/game_sound.zip?raw=true) and upload it into the system.
 
-  > The sound data in the zip archive is required to be in wav format.
+  > The sound data in the zip archive must be in wav format.
 
   ![](./pic/insert.png)
 
-- Search audio.
+- Search for similar audio clips.
 
-  You can pass in [test.wav](https://github.com/shiyu22/bootcamp/blob/0.11.0/solutions/audio_search/data/test.wav) to find the result that is most similar to that sound.
+  You can upload [test.wav](https://github.com/shiyu22/bootcamp/blob/0.11.0/solutions/audio_search/data/test.wav) to search for the most similar sound clips.
   
   ![](./pic/search.png)
 
-> If you need a front-end interface, please refer to https://zilliz.com/demos/.
+> Please refer to https://zilliz.com/demos/ to take a try in the front-end interface.
