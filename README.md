@@ -61,4 +61,4 @@ You can type `127.0.0.1:8002/docs` into your browser to see all the APIs.
   
   ![](./pic/search.png)
 
-> If you need a front-end interface, please refer to https://zilliz.com/demos/.
+> If you need a front-end interface, please refer to https://www.zilliz.com/solutions
