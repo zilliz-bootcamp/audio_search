@@ -1,4 +1,4 @@
-# Audio retrieval system with Milvus
+# Audio search system with Milvus
 
 This project uses [PANNs](https://github.com/qiuqiangkong/audioset_tagging_cnn)(Large-Scale Pretrained Audio Neural Networks) for Audio Pattern Recognition to perform audio tagging and sound event detection, finally obtaining audio embeddings. Then this project uses [Milvus](https://milvus.io/docs/v0.11.0/overview.md) to search for similar audio clips.
 
@@ -61,4 +61,4 @@ Type `127.0.0.1:8002/docs` in your browser to see all the APIs.
   
   ![](./pic/search.png)
 
-> Please refer to https://zilliz.com/demos/ to take a try in the front-end interface.
+Please refer to https://zilliz.com/demos/ to take a try in the front-end interface.
